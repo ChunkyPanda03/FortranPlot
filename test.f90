@@ -24,5 +24,5 @@ program test
   tempy(:,1) = (/1,2,3,4,5/)
   tempy(:,2) = -1 * (/1,2,3,4,5/)
   
-  call plot(tempx,tempy)
+  call plot(tempx,tempy,"")
 end program test
